@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo-confeito{
+    width: 100%;
+    height: 500px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    max-width: 940px;
+    overflow: hidden;
+}
+
+.conteudo div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+
+.conteudo h2{
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.conteudo p{
+    margin: 10px 0;
+    text-align: center;
+}
