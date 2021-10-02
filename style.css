@@ -1,31 +1,55 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-
-#logo-confeito{
+html, body{
+    margin: 0px;
     width: 100%;
-    height: 500px;
+    height: 100%;
+    min-height: 100%;
 }
 
-.conteudo{
+body{
+    background: linear-gradient(rgb(221, 134, 221), rgb(248, 143, 248),rgb(250, 116, 250), rgb(252, 93, 252), rgb(253, 67, 253));
+    background: li;
+}
+
+header{
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 45px;
+    margin-top: 5px;
+    /*color: white;*/
+}
+
+header h1::before{
+    content: "🧁";
+}
+
+header h1::after{
+    content: "🐾";
+}
+
+#subtitulo-header{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+main{
+    width: 940px;
     margin: 0 auto;
-    max-width: 940px;
-    overflow: hidden;
 }
 
-.conteudo div{
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    
+.historia h1{
+    font-size: 25px;
 }
 
-.conteudo h2{
-    color: #CCCCCC;
-    text-align: center;
-}
-
-.conteudo p{
-    margin: 10px 0;
-    text-align: center;
+.historia p{
+    font-size: 18px;
+    padding-top: 8px;
 }
