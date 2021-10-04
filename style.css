@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-    background: linear-gradient(rgb(221, 134, 221), rgb(248, 143, 248),rgb(250, 116, 250), rgb(252, 93, 252), rgb(253, 67, 253));
+    background: linear-gradient(rgb(221, 134, 221), rgb(248, 143, 248),rgb(250, 116, 250), rgb(252, 93, 252), rgb(253, 67, 253), rgb(252, 59, 252));
 }
 
 header{
@@ -98,9 +98,18 @@ main{
     font-size: 25px;
 }
 
-
-footer h2{
-    font-size: 25px;
+footer{
+    width: 940px;
+    margin: 0 auto;
     text-align: center;
 }
 
+footer h2{
+    font-size: 25px; 
+}
+
+.redes-sociais a img{
+    width: 4%;
+    padding: 15px 0 15px 0;
+    display: inline-block;
+}
