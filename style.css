@@ -7,7 +7,6 @@ html, body{
 
 body{
     background: linear-gradient(rgb(221, 134, 221), rgb(248, 143, 248),rgb(250, 116, 250), rgb(252, 93, 252), rgb(253, 67, 253));
-    background: li;
 }
 
 header{
@@ -45,7 +44,7 @@ main{
     margin: 0 auto;
 }
 
-.historia h1{
+.historia h2{
     font-size: 25px;
 }
 
@@ -53,3 +52,55 @@ main{
     font-size: 18px;
     padding-top: 8px;
 }
+
+.produtos{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2{
+    font-size: 25px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    /*vertical-align: top;*/
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+
+.produtos li:hover{
+    border-color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+
+.produtos h3{
+    font-size: 22px;
+}
+
+.produtos li:hover h3{
+    font-size: 30px;
+}
+
+.produtos-sabores{
+    font-size: 18px;
+}
+
+.produtos-precos{
+    font-size: 18px;
+}
+
+.localizacao h2{
+    font-size: 25px;
+}
+
+
+footer h2{
+    font-size: 25px;
+    text-align: center;
+}
+
