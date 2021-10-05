@@ -7,6 +7,8 @@ html, body{
 
 body{
     background: linear-gradient(rgb(221, 134, 221), rgb(248, 143, 248),rgb(250, 116, 250), rgb(252, 93, 252), rgb(253, 67, 253), rgb(252, 59, 252));
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 header{
@@ -84,6 +86,24 @@ main{
 
 .produtos li:hover h3{
     font-size: 30px;
+}
+
+.produtos-imagens{
+    width: 70%;
+}
+
+#imagem-donuts{
+    width: 40%;
+}
+
+#imagem-docinhos{
+    width: 52.5%;
+}
+
+.produtos-imagens:hover, #imagem-donuts:hover, #imagem-docinhos:hover{
+    transform: scale(1.4);
+    border: gold solid 2px;
+    transition: all 1s;
 }
 
 .produtos-sabores{
