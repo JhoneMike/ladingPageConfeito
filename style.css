@@ -24,10 +24,12 @@ header h1{
 }
 
 header h1::before{
+    margin-right: 150px;
     content: "🧁";
 }
 
 header h1::after{
+    margin-left: 150px;
     content: "🐾";
 }
 
