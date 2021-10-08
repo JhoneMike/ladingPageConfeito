@@ -127,11 +127,21 @@ footer{
 }
 
 footer h2{
-    font-size: 25px; 
+    font-size: 25px;
 }
 
 .redes-sociais a img{
     width: 4%;
     padding: 15px 0 15px 0;
     display: inline-block;
+}
+
+.copyright::before{
+    content: "©";
+}
+
+.copyright{
+    font-family: 'Source Serif Pro', serif;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
 }
